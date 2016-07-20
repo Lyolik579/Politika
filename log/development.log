@@ -949,3 +949,163 @@ Processing by PagesController#index as HTML
   Rendered layouts/_nav_user.html.erb (0.9ms)
   Rendered layouts/_nav.html.erb (3.5ms)
 Completed 200 OK in 167ms (Views: 154.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 76.126.22.213 at 2016-07-20 04:04:00 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_nav_guest.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (7.5ms)
+Completed 200 OK in 834ms (Views: 816.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.126.22.213 at 2016-07-20 04:04:07 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (4.4ms)
+Completed 200 OK in 221ms (Views: 218.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.126.22.213 at 2016-07-20 04:04:09 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.4ms)
+Completed 200 OK in 88ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.126.22.213 at 2016-07-20 04:04:11 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.5ms)
+Completed 200 OK in 123ms (Views: 122.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.126.22.213 at 2016-07-20 04:04:13 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (3.6ms)
+Completed 200 OK in 196ms (Views: 195.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 76.126.22.213 at 2016-07-20 04:04:17 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (13.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (123.6ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.4ms)
+Completed 200 OK in 268ms (Views: 238.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/users/sign_in" for 76.126.22.213 at 2016-07-20 04:04:29 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qVxRvi+9mawjBCbGxHviO7m3A6MrnZwxYy6ssY1462+qiGbgsufXWMmvSp5GNC4V5cqIVfqAxLnz7k68RRr15g==", "user"=>{"email"=>"bylka@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "bylka@gmail.com"]]
+Completed 401 Unauthorized in 338ms (ActiveRecord: 0.5ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qVxRvi+9mawjBCbGxHviO7m3A6MrnZwxYy6ssY1462+qiGbgsufXWMmvSp5GNC4V5cqIVfqAxLnz7k68RRr15g==", "user"=>{"email"=>"bylka@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (4.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.8ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.8ms)
+Completed 200 OK in 227ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 76.126.22.213 at 2016-07-20 04:04:42 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kVETB60FnesIcwpO9QUB7Ft4GpJd8PTq3bLC9LUAeBOShSRZMF/TH+LYZhZ3Ss3CBwWRZIztrGJNciD5fWJmmg==", "user"=>{"email"=>"oabylova@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "oabylova@gmail.com"]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.2ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kVETB60FnesIcwpO9QUB7Ft4GpJd8PTq3bLC9LUAeBOShSRZMF/TH+LYZhZ3Ss3CBwWRZIztrGJNciD5fWJmmg==", "user"=>{"email"=>"oabylova@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (5.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.1ms)
+  Rendered layouts/_nav_guest.html.erb (1.3ms)
+  Rendered layouts/_nav.html.erb (2.7ms)
+Completed 200 OK in 379ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 76.126.22.213 at 2016-07-20 04:04:53 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4vxZLmCe7Y2YEYIGdNCPd9AvgQs8V6oHlBZeT4B+6MrhKG5w/cSjeXK67l72n0NZjFIK/e1K8o8E1rxCSBz2Qw==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "test@test.com"]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.2ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4vxZLmCe7Y2YEYIGdNCPd9AvgQs8V6oHlBZeT4B+6MrhKG5w/cSjeXK67l72n0NZjFIK/e1K8o8E1rxCSBz2Qw==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (6.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.7ms)
+Completed 200 OK in 259ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 76.126.22.213 at 2016-07-20 04:04:55 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.8ms)
+  Rendered layouts/_nav_guest.html.erb (1.0ms)
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 167ms (Views: 165.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 76.126.22.213 at 2016-07-20 04:05:07 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"thHipfFd6ZJS/EdnnwVzFDwaO4QAwYRLtp6WeI9hBzC1xdX7bAenZrhXKz8dSr86YGewctHc3MMmXnR1RwMZuQ==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (13.4ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 289ms (Views: 88.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 76.126.22.213 at 2016-07-20 04:05:20 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sF6A3vLRfg6XNa/6UqIqsCqwRZlKAmxTeaLQgTr7D4uzireAb4sw+n2ew6LQ7eaeds3Ob5sfNNvpYjKM8pkRAg==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@test.com"], ["encrypted_password", "$2a$11$JlLj29WLN6gxDMwLhHz8Ce07Z6VOzeF/nSst1KbywXV7pA343Xwkm"], ["created_at", "2016-07-20 04:05:21.077092"], ["updated_at", "2016-07-20 04:05:21.077092"]]
+  [1m[36m (17.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2016-07-20 04:05:21.097838"], ["current_sign_in_at", "2016-07-20 04:05:21.097838"], ["last_sign_in_ip", "76.126.22.213"], ["current_sign_in_ip", "76.126.22.213"], ["sign_in_count", 1], ["updated_at", "2016-07-20 04:05:21.098684"], ["id", 2]]
+  [1m[35m (7.9ms)[0m  commit transaction
+Redirected to https://politika-olie.c9users.io/
+Completed 302 Found in 192ms (ActiveRecord: 27.2ms)
+
+
+Started GET "/" for 76.126.22.213 at 2016-07-20 04:05:21 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (5.5ms)
+Completed 200 OK in 79ms (Views: 78.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profile" for 76.126.22.213 at 2016-07-20 04:05:24 +0000
+Cannot render console from 76.126.22.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Rendered pages/profile.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (4.1ms)
+Completed 200 OK in 80ms (Views: 79.5ms | ActiveRecord: 0.2ms)
